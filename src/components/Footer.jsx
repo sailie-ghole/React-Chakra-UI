@@ -8,10 +8,15 @@ import { AiOutlineSend } from 'react-icons/ai';
 const Footer = () => {
   return (
     <Box bgColor={'blackAlpha.900'} minH={'40'} p={'16'} color={'white'}>
-        <Stack direction={['column', 'row']}>
-            
+        
+        <Stack direction={['column', 'row']}>   {/* array for responsive */}
+
             <VStack alignItems={'stretch'} w={'full'} px={'4'}>
-                <Heading size="md" textTransform={'uppercase'}>
+                <Heading 
+                    size="md"
+                    textTransform={'uppercase'}
+                    textAlign={['center', 'left']}
+                >
                     Subscribe to get Updates
                 </Heading>
                 <HStack>
@@ -39,7 +44,7 @@ const Footer = () => {
                 borderRight={['none', '1px solid white']}
             >
                 <Heading textTransform={'uppercase'} textAlign={'center'}>
-                    VIDEO HUB
+                    ART HUB
                 </Heading>
                 <Text>All rights received</Text>
             </VStack>

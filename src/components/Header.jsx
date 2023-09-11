@@ -33,7 +33,7 @@ const {isOpen, onOpen, onClose} = useDisclosure() //hook
         <DrawerOverlay />
         <DrawerContent>
             <DrawerCloseButton />
-            <DrawerHeader>VIDEO HUB</DrawerHeader>
+            <DrawerHeader>ART HUB</DrawerHeader>
             <DrawerBody>
                 <VStack>
                     <Button  onClick={onClose} variant={'ghost'} colorScheme={'purple'}>
