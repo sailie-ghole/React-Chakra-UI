@@ -52,7 +52,7 @@ const {isOpen, onOpen, onClose} = useDisclosure() //hook
 
                 <HStack pos={'absolute'} bottom={'10'} left={'0'}  w={'full'} justifyContent={'space-evenly'}>
                     <Button onClick={onClose} colorScheme={'purple'}>
-                        <Link to={'/=login'}>Log in</Link>
+                        <Link to={'/login'}>Log in</Link>
                     </Button>
                     <Button onClick={onClose} colorScheme={'purple'} variant={'outline'}>
                         <Link to={'/signup'}>Sign up</Link>
